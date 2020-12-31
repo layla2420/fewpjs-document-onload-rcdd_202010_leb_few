@@ -1,7 +1,7 @@
 // Your code goes here
 document.addEventListener("DOMContentLoaded", function() {
-newParagraph()
+updateDom()
 });
-function newParagraph(){
+function updateDom(){
 document.getElementByID("text").innerHTML= "This is really cool!"
 }
